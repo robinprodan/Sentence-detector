@@ -1,0 +1,73 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+.full-section {
+  background: #E1E1E1;
+  height: 100vh;
+  padding: 50px 0;
+}
+.heading {
+  text-align: center;
+}
+.heading h1 {
+  font-weight: 600;
+  color: #019D47;
+}
+.record-button {
+  margin: 2rem 0 1rem;
+}
+.btn {
+  margin-right: 20px;
+}
+textarea {
+  width: 80%;
+  height: 50px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+textarea:focus {
+  outline: #fff;
+  border: 1px solid #019D47;
+}
+.result-button {
+  margin: 1rem 0 1.5rem;
+}
+.instant-result p {
+  font-size: 18px;
+}
+
+.fullDiv {
+  background: #00000094;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+.fullDiv h3 {
+  font-weight: 600;
+  padding-top: 2rem;
+}
+.middleDiv {
+  text-align: center;
+  height: 250px;
+  width: 420px;
+  background: #fff;
+  position: relative;
+  top: 20%;
+  left: 35%;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+@media (max-width: 767px) {
+  .full-section {
+    height: auto;
+  }
+  .middleDiv {
+    left: 15%;
+    width: 380px;
+  }
+}
